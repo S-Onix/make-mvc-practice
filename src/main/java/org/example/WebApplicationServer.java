@@ -19,6 +19,7 @@ public class WebApplicationServer {
         logger.info("configuring app with basedir : {}", new File("./" + webappDirLocation).getAbsolutePath());
 
         tomcat.start();
-        tomcat.getServer().wait();
+        tomcat.getServer().await();
+
     }
 }
