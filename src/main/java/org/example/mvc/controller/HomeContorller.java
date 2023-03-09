@@ -6,6 +6,6 @@ import javax.servlet.http.HttpServletResponse;
 public class HomeContorller implements Controller{
     @Override
     public String handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return "home.jsp";
+        return "home";
     }
 }
